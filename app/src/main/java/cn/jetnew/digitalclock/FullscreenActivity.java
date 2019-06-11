@@ -102,14 +102,12 @@ public class FullscreenActivity extends AppCompatActivity {
 
 
         // Set up the user interaction to manually show or hide the system UI.
-        /*wangyakun, 2019-6-10
         mContentView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 toggle();
             }
         });
-        */
 
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away
